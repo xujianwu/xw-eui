@@ -1,0 +1,10 @@
+{
+  "name": "@xw-eui/hooks",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+  }
+}
