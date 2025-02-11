@@ -4,7 +4,7 @@
   "private": true,
   "main": "index.ts",
   "scripts": {
-    "test": "pnpm --filter @xw-eui/hooks build && vitest --coverage"
+    "test": "vitest --coverage"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^1.4.0",

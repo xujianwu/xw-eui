@@ -19,7 +19,7 @@ import {
   unref,
   watch,
   withCtx
-} from "./chunk-7BFP2LLL.js";
+} from "./chunk-IWYC5R2O.js";
 
 // ../../_node_modules/vitepress-view-component/_product/preview-component.js
 var T = (o, e) => {

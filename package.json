@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "nvm": "nvm on",
+    "story": "pnpm --filter @xw-eui/play storybook",
     "dev": "pnpm --filter @xw-eui/play dev",
     "docs:dev": "pnpm --filter @xw-eui/docs dev",
     "docs:build": "pnpm --filter @xw-eui/docs build",
-    "test": "echo \"todo\""
+    "test": "pnpm --filter @xw-eui/components test"
   },
   "author": "",
   "license": "ISC",
@@ -36,6 +38,9 @@
     "@xw-eui/utils": "workspace:*",
     "@xw-eui/theme": "workspace:*",
     "@vitepress-preview/component": "workspace:*",
-    "@eric-ui/vite-plugins":"workspace:*"
+    "@xw-eui/vite-plugins": "workspace:*",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8"
   }
 }
